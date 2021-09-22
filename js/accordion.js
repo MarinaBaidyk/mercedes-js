@@ -18,7 +18,7 @@ const btns = document.querySelectorAll('.feature__link');
 // })
 
 
-btns.forEach((btn, index) => {
+btns.forEach((btn) => {
   btn.addEventListener('click', () => {
     btns.forEach((btnItem, index) => {
       if (btnItem === btn) {
